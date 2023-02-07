@@ -1,6 +1,8 @@
 import { ColorModeContext, useMode } from "./Theme";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { Topbar } from "./scence/global";
+import { Dashboard } from "./scence/dashboard/index";
+import { Sidebar } from "./scence/global/Sidebar";
 
 function App() {
   const [theme, colorMode] = useMode();
