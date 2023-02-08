@@ -14,7 +14,13 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
   return (
     <MenuItem
       active={selected === title}
-      style={{ color: colors.grey[100] }}
+      style={{ color: colors.grey[100], "&:hover": "#black" }}
+      sx={{
+        ":hover": {
+          backgroundColor: "blue",
+          color: "white",
+        },
+      }}
       onClick={() => setSelected(title)}
       icon={icon}
     >
