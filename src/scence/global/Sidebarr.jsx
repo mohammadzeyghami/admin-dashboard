@@ -162,7 +162,7 @@ const Sidebarr = () => {
               <Item
                 title="Line Chart"
                 to="/line"
-                icon={<TimelineOutlinedIcon />}
+                icon={<PieChartOutlinedIcon />}
                 selected={selected}
                 setSelected={setSelected}
               />

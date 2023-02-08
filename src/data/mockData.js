@@ -11,7 +11,37 @@ export const sideBarData = [
   {
     title: "Profile Form",
     to: "/form",
-    icon: <ReceiptOutlinedIcon />,
+    icon: <PersonOutlinedIcon />,
+  },
+  {
+    title: "Calendar",
+    to: "/calendar",
+    icon: <CalendarTodayOutlinedIcon />,
+  },
+  {
+    title: "FAQ",
+    to: "/faq",
+    icon: <HelpOutlinedIcon />,
+  },
+  {
+    title: "Bar Chart",
+    to: "/bar",
+    icon: <BarChartOutlinedIcon />,
+  },
+  {
+    title: "Pie Chart",
+    to: "/pie",
+    icon: <PieChartOutlinedIcon />,
+  },
+  {
+    title: "Line Chart",
+    to: "/line",
+    icon: <PieChartOutlinedIcon />,
+  },
+  {
+    title: "Gerography Chart",
+    to: "/geography",
+    icon: <MapOutlinedIcon />,
   },
 ];
 
