@@ -12,21 +12,16 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
   const colors = tokens(theme.palette.mode);
   const { collapsed } = useProSidebar();
   return (
-    <MenuItem
-      active={selected === title}
-      style={{ color: colors.grey[100], "&:hover": "#black" }}
-      sx={{
-        ":hover": {
-          backgroundColor: "blue",
-          color: "white",
-        },
-      }}
-      onClick={() => setSelected(title)}
-      icon={icon}
-    >
-      {collapsed ? "" : <Typography>{title}</Typography>}
-      <Link to={to} />
-    </MenuItem>
+    <Link to={to}>
+      <MenuItem
+        active={selected === title}
+        style={{ color: colors.grey[100] }}
+        onClick={() => setSelected(title)}
+        icon={icon}
+      >
+        {collapsed ? "" : <Typography>{title}</Typography>}
+      </MenuItem>
+    </Link>
   );
 };
 
@@ -44,13 +39,13 @@ const Sidebarr = () => {
           paddingLeft={collapsed ? "" : "40px"}
         >
           <Menu
-            onClick={() => collapseSidebar()}
             style={{
               height: "100vh",
               display: "flex",
             }}
           >
             <MenuOutlinedIcon
+              onClick={() => collapseSidebar()}
               style={{
                 width: "20px",
                 height: "20px",
@@ -81,6 +76,7 @@ const Sidebarr = () => {
                     objectFit: "cover",
                     borderRadius: "100%",
                     cursor: "pointer",
+                    marginLeft: "25px",
                   }}
                 />
               </Box>
