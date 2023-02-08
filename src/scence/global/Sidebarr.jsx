@@ -14,8 +14,11 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
   return (
     <Link to={to}>
       <MenuItem
+        className="menuItems"
         active={selected === title}
-        style={{ color: colors.grey[100] }}
+        style={{
+          color: colors.greenAccent[500],
+        }}
         onClick={() => setSelected(title)}
         icon={icon}
       >
@@ -91,14 +94,13 @@ const Sidebarr = () => {
                 >
                   Mohammad
                 </Typography>
-                <Typography variant="h3" color={colors.greenAccent[500]}>
-                  Zeyghami
-                </Typography>
+                <Typography variant="h3">Zeyghami</Typography>
               </Box>
             )}
-            <Box>
+            <Box style={{ marginTop: "20px" }}>
               {sideBarData.map((item, index) => (
                 <Item
+                  key={index}
                   title={item.title}
                   to={item.to}
                   icon={item.icon}

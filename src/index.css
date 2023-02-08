@@ -30,3 +30,6 @@ root,
 ::-webkit-scrollbar-track:hover {
   background: #555;
 }
+.menuItems:hover {
+  background-color: aqua !important;
+}
