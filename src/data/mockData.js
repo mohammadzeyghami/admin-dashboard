@@ -1,5 +1,20 @@
 import { tokens } from "../theme";
 
+export const sideBarData = [
+  { title: "data", to: "/", icon: <HomeOutlinedIcon /> },
+  { title: "Manage Team", to: "/team", icon: <PeopleOutlinedIcon /> },
+  {
+    title: "Invoices Balances",
+    to: "/invoices",
+    icon: <ReceiptOutlinedIcon />,
+  },
+  {
+    title: "Profile Form",
+    to: "/form",
+    icon: <ReceiptOutlinedIcon />,
+  },
+];
+
 export const mockDataTeam = [
   {
     id: 1,
