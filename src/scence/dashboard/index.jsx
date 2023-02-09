@@ -7,5 +7,5 @@ export { default as Line } from "./Line";
 export { default as Pie } from "./Pie";
 export { default as Geogeraphy } from "./Geogeraphy";
 export { default as FAQ } from "./FAQ";
-export { default as Calendar } from "./Calendar";
+export { default as Calendarr } from "./Calendarr";
 export { default as Dashboard } from "./Dashboard";

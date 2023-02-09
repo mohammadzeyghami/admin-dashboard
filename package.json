@@ -7,6 +7,7 @@
     "@emotion/styled": "^11.10.5",
     "@fullcalendar/core": "^6.1.1",
     "@fullcalendar/daygrid": "^6.1.1",
+    "@fullcalendar/interaction": "^6.1.4",
     "@fullcalendar/list": "^6.1.1",
     "@fullcalendar/timegrid": "^6.1.1",
     "@mui/icons-material": "^5.11.0",
