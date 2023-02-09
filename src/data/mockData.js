@@ -21,11 +21,6 @@ export const sideBarData = [
     icon: <ReceiptOutlinedIcon />,
   },
   {
-    title: "Profile Form",
-    to: "/form",
-    icon: <PersonOutlinedIcon />,
-  },
-  {
     title: "Calendar",
     to: "/calendar",
     icon: <CalendarTodayOutlinedIcon />,
