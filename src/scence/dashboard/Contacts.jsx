@@ -43,7 +43,7 @@ const Contacts = () => {
   return (
     <Box m="20px">
       <Header
-        title="TContacts"
+        title="Contacts"
         subtitle="The List Of Contacts for Future Refrence"
       />
       <Box
