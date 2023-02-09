@@ -8,11 +8,13 @@ import HelpOutlinedIcon from "@mui/icons-material/HelpOutlined";
 import BarChartOutlinedIcon from "@mui/icons-material/BarChartOutlined";
 import PieChartOutlinedIcon from "@mui/icons-material/PieChartOutlined";
 import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
+import GradientOutlinedIcon from "@mui/icons-material/GradientOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 
 export const sideBarData = [
   { title: "data", to: "/", icon: <HomeOutlinedIcon /> },
   { title: "Manage Team", to: "/team", icon: <PeopleOutlinedIcon /> },
+  { title: "Contacts ", to: "/contacts", icon: <GradientOutlinedIcon /> },
   {
     title: "Invoices Balances",
     to: "/invoices",
