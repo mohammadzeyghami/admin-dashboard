@@ -12,6 +12,7 @@ import {
   Geogeraphy,
   Calendarr,
   Bar,
+  Line,
 } from "./scence/dashboard";
 import { Sidebarr, Topbar } from "./scence/global";
 
@@ -35,6 +36,7 @@ function App() {
               <Route path="/pie" element={<Pie />} />
               <Route path="/faq" element={<FAQ />} />
               <Route path="/geography" element={<Geogeraphy />} />
+              <Route path="/line" element={<Line />} />
               <Route path="/calendar" element={<Calendarr />} />
             </Routes>
           </main>
