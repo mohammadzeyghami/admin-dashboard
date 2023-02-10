@@ -12,6 +12,62 @@ const FAQ = () => {
   return (
     <Box m="20px">
       <Header title="FAQ" subtitle="frequently Asked Questions Page" />
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography color={colors.greenAccent[500]} variant="h5">
+            An Important Question
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+            temporibus! Expedita dolorum aspernatur libero voluptatum dolores
+            qui, alias molestiae pariatur.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography color={colors.greenAccent[500]} variant="h5">
+            Another Important Question
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+            temporibus! Expedita dolorum aspernatur libero voluptatum dolores
+            qui, alias molestiae pariatur.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography color={colors.greenAccent[500]} variant="h5">
+            Your Favorite Question
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+            temporibus! Expedita dolorum aspernatur libero voluptatum dolores
+            qui, alias molestiae pariatur.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography color={colors.greenAccent[500]} variant="h5">
+            Some Random Question
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+            temporibus! Expedita dolorum aspernatur libero voluptatum dolores
+            qui, alias molestiae pariatur.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
     </Box>
   );
 };
