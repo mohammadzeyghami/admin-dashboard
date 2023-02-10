@@ -5,7 +5,7 @@ import { useTheme } from "@emotion/react";
 import { mockPieData as data } from "../data/mockData";
 const PieChart = () => {
   const theme = useTheme();
-  const colors = tokens(theme.plette.mode);
+  const colors = tokens(theme.palette.mode);
   return (
     <ResponsivePie
       data={data}
@@ -45,7 +45,7 @@ const PieChart = () => {
         modifiers: [["darker", 0.2]],
       }}
       arcLinkLabelsSkipAngle={10}
-      arcLinkLabelsTextColor="#333333"
+      arcLinkLabelsTextColor={colors.grey[100]}
       arcLinkLabelsThickness={2}
       arcLinkLabelsColor={{ from: "color" }}
       arcLabelsSkipAngle={10}
