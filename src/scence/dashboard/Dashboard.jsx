@@ -210,7 +210,7 @@ const Dashboard = () => {
                 </Typography>
               </Box>
               <Box color={colors.grey[100]}>{transaction.date}</Box>
-              <Box></Box>
+              <Box backgroundColor={colors.greenAccent[500]} p="5px 10px"></Box>
             </Box>
           ))}
         </Box>
