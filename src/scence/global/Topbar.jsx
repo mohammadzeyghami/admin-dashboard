@@ -12,6 +12,8 @@ import SearchIcon from "@mui/icons-material/SearchOutlined";
 import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
 const Topbar = () => {
   const theme = useTheme();
+  const colors = tokens(theme.palette.mode);
+  const colorMode = useContext(ColorModeContext);
   return <div>Topbar</div>;
 };
 
