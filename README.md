@@ -1,7 +1,7 @@
 admin-dashboard with React & mui with difrent Charts and DifrentsMode
 
 check live 
- mz-admin-dashboard-mui.netlify.app
+https://mz-admin-dashboard-mui.netlify.app/
 
 
 ![React App - Google Chrome 1401_11_23 07_34_41 عـصـر](https://user-images.githubusercontent.com/108722492/218330060-8f48741e-2ad1-45f5-bf05-de9b8b1db6b8.png)
