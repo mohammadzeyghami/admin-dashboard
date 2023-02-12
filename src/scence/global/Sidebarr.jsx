@@ -43,7 +43,8 @@ const Sidebarr = () => {
         >
           <Menu
             style={{
-              height: "100vh",
+              height: "100%",
+              minHeight: "100vh",
               display: "flex",
             }}
           >
