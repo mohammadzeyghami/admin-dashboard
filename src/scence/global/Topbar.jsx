@@ -11,6 +11,7 @@ import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import SearchIcon from "@mui/icons-material/SearchOutlined";
 import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
 const Topbar = () => {
+  const theme = useTheme();
   return <div>Topbar</div>;
 };
 
